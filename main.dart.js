@@ -63022,28 +63022,28 @@ O(a){var s=null
 return new A.rL(B.zv,"Bruno Gottlieb",A.acf(s,B.fe,new A.nL(s,s,s,s,s,s,new A.cs(B.ag,t.Il),s,s,s,s,s),s),!1,s)}}
 A.yN.prototype={
 O(a){var s=null,r=t.w
-if(A.bp(a,s,r).w.a.a>=1400)r=A.uN(B.J,A.a([A.cG(B.vO,A.fS("images/Unity.png",s,s,s),B.E,s,s,1/0,s,s,s),B.Fm],t.E),B.d1)
-else if(A.bp(a,s,r).w.a.a>=800&&A.bp(a,s,r).w.a.a<1400)r=B.xF
+if(A.bp(a,s,r).w.a.a>=1350)r=A.uN(B.J,A.a([A.cG(B.vO,A.fS("images/Unity.png",s,s,s),B.E,s,s,1/0,s,s,s),B.Fm],t.E),B.d1)
+else if(A.bp(a,s,r).w.a.a>=800&&A.bp(a,s,r).w.a.a<1350)r=B.xF
 else r=A.pW(A.e5(A.a([A.en(s,A.lx(a)?30:50,s),B.eY,B.eX],t.E),B.ah,B.T),s,s)
 return A.a7a(B.E,r)}}
 A.r8.prototype={
 ao(){return new A.GT(B.k)}}
 A.GT.prototype={
 O(a){var s,r=null,q=t.w,p=A.bp(a,r,q).w.a.b,o=A.bp(a,r,q).w
-o=A.en(A.fS("images/DesktopGradient.jpg",r,B.iz,r),p,o.a.a)
+o=A.en(A.fS("images/DesktopGradient.jpg",r,B.iz,r),p+5,o.a.a)
 if(A.lx(a))q=700
 else q=A.bp(a,r,q).w.a.a<800?1150:600
 s=t.E
 return A.a7a(r,A.uN(B.da,A.a([o,A.a7f(A.e5(A.a([A.cG(r,B.vS,r,new A.aE(0,1/0,q,1/0),r,p,r,r,r),B.F8],s),B.ah,B.T))],s),B.d1))}}
 A.nt.prototype={
 O(a){var s,r,q,p,o=this,n=null,m=t.w,l=A.bp(a,n,m).w.a.b,k=A.bp(a,n,m).w.a.a,j=A.en(A.fS("images/DesktopGradient.jpg",n,B.iz,n),l,k)
-if(A.bp(a,n,m).w.a.a>=1400){s=k*0.5
+if(A.bp(a,n,m).w.a.a>=1350){s=k*0.5
 s=A.Dv(A.a([A.cG(n,o.Jx(s),n,n,n,s,n,B.zb,k/2),o.a4y(a,k,l)],t.E),B.ah,B.T,B.aF)}else{s=o.Jx(A.lx(a)?300:400)
 r=o.c
 q=A.o4(r.a,A.jJ(n,n,B.cm,n,n,n,n,n,"Corbel",n,n,A.lx(a)?30:40,n,n,B.aR,n,n,!0,n,n,n,n,n,n,n,n),n)
 p=t.E
 p=A.a7f(A.e5(A.a([A.pW(A.cG(n,A.e5(A.a([s,A.cG(n,A.e5(A.a([q,A.o4(r.b,A.jJ(n,n,B.ag,n,n,n,n,n,"Corbel",n,n,A.lx(a)?18:20,n,n,B.aR,n,n,!0,n,n,n,n,n,n,n,n),n)],p),B.av,B.T),n,n,n,n,n,B.jQ,n)],p),B.av,B.T),n,B.iy,n,n,n,B.z9,k),n,n),o.a3o(a,k,l)],p),B.dp,B.T))
-s=p}if(A.bp(a,n,m).w.a.a>=1400){m=o.c
+s=p}if(A.bp(a,n,m).w.a.a>=1350){m=o.c
 m=A.V0(n,A.cG(n,A.e5(A.a([A.o4(m.a,B.J9,n),A.o4(m.b,B.vg,n)],t.E),B.av,B.T),n,n,n,n,n,B.jQ,n),n,n,75,n,0,n)}else m=B.F5
 return A.a7a(B.fe,A.uN(B.da,A.a([j,s,m,o.Zz(a)],t.E),B.d1))},
 Zz(a){var s=null
@@ -63077,8 +63077,8 @@ A.Vd.prototype={
 $1(a){return this.a.JF(a,this.b)},
 $S:104}
 A.CN.prototype={
-O(a){var s,r,q=null,p=t.w,o=A.bp(a,q,p).w.a.a>=1400?75:20,n=A.bp(a,q,p).w.a.a>=1400?75:20,m=A.bp(a,q,p).w.a.a>=1400?75:20
-p=A.bp(a,q,p).w.a.a>=1400?75:20
+O(a){var s,r,q=null,p=t.w,o=A.bp(a,q,p).w.a.a>=1350?75:20,n=A.bp(a,q,p).w.a.a>=1350?75:20,m=A.bp(a,q,p).w.a.a>=1350?75:20
+p=A.bp(a,q,p).w.a.a>=1350?75:20
 s=$.aff()
 r=A.U(s).h("ac<1,ls>")
 return new A.Do(new A.T_(B.DO,!0),A.Z(new A.ac(s,new A.Vg(),r),!0,r.h("at.E")),350,1,400,o,n,m,p,q)}}
